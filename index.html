@@ -3,18 +3,22 @@
     <head>
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>My world</title>
+    <title>My portoflio</title>
     <style>
+        h1 {
+text-align: center;
+}
+   
     body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin: 0;
         padding: 0;
-    }
-    header {
         background-color: #3f0303;
         color: #FFFAFA;
+    }
+    header {
         text-align: center;
-        padding: 10px;
+        padding: 20px;
     }
     nav {
         background-color: #9d1010;
@@ -29,20 +33,101 @@
     section {
         padding: 20px;
     }
+    section#About {
+            background-color: #FFFAFA;
+            color: #3f0303;
+        }
+        section#About img {
+            display: block;
+            margin: 0 auto;
+            height: 200px;
+            width: 200px;
+        }
+        section#Contact {
+            margin-bottom: 100px;
+        }
+        section#work
+        {
+            background-color: #b32929;
+            color: #ffffff;
+        }
     footer {
         background-color: #9d1010;
         color: white;
         text-align: center;
         padding: 10px;
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
     }
     </style>
     <body>
     <hearder>
-        <h1>Eya Dhiflaoui</h1>
-        <p>IT engineering student</p>
+        <h1 style="font-size: 36px;">Eya Dhiflaoui</h1>
+        <h2 style="text-align: center">IT engineering student</h2>
     </hearder> 
+    <nav>
+        <a href="#home">home</a>
+        <a href="#about">About</a>
+        <a href="#work">work</a>
+        <a href="#resume">resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="About">
+        <h2>get to know me</h2>
+        <br>
+        <p>In this big world of IT , i am a 22 years old dreamer ,i just made my first steps .I am an ambitious young woman that wants to leave her mark , working towards my dream in steady steps . </p>
+        <br>
+        <img src="C:\Users\eyadh\Desktop/myphoto.jpg" alt="<NAME>" height= "20%" width = "20%">
+    </section>
+    <section id="work">
+        <h2>work</h2>
+        <table border="1">
+            <tr>
+              <th>project</th>
+              <th>year</th>
+              <th>place</th>
+            </tr>
+            <tr>
+              <td>SDL game</td>
+              <td>2023</td>
+              <td>ESPRIT/td>
+            </tr>
+            <tr>
+              <td>Website</td>
+              <td>2023</td>
+              <td>GOMYCODE</td>
+            </tr>
+          </table>
+    </section>
+    <section id="resume">
+        <h2>resume</h2>
+        <dl>
+            <dt>2022-now : ESPRIT</dt>
+            <dd>IT engineering</dd>
+            <p>check ESPRIT video for more info</p> 
+            <iframe 
+            style ="height:200px ;width:300px;"src=https://www.youtube.com/@esprit-ecolesuppriveedinge5115"
+            ></iframe>
+            
+            <dt>2016-2020</dt>
+            <dd>High school Degree:Kasserine Pioneer high school</dd>
+        </dl>
+    </section>
+    <section id="contact">
+        <h2>contact me</h2>
+        <form>
+            <label>name</label>
+            <input type="text" name ="first name" placeholder="type your name "><br>
+            <label >email address:</label>
+            <input  type = "email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        &copy; 2023 my portoflio. All rights reserved.
+    </footer>
     </body>
 </html>
