@@ -15,7 +15,7 @@
     header {
         text-align: center;
         padding: 10%;
-        background-color: #FFFAFA;
+        font: size 10px;;
     }
     nav {
         background-color: #19334d;
@@ -42,7 +42,7 @@
     }
     section#About {
             background-color: #ffffff;
-            color: #3f0303;
+            color: #8ba7cc;
             width: auto;
             height:auto;
         }
@@ -58,11 +58,11 @@
         }
         section#work
         {
-            background-color: #b32929;
+            background-color: #96bedf;
             color: #ffffff;
         }
     footer {
-        background-color: #9d1010;
+        background-color: #14075c;
         color: white;
         text-align: center;
         padding: 10px;
