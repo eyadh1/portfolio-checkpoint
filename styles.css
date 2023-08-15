@@ -1,108 +1,141 @@
- h1 {
-        text-align: center;
-        font-weight: bold;
-    }
- h2{
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bolder;
-  }
-   
-    body {
-        font-family:'roboto',sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #336699;
-        color: #FFFAFA;
-        font-weight: 400;
-    }
-    header {
-        text-align: center;
-        padding: 10%;
-        font: size 10px;;
-    }
-    nav {
-        background-color: #19334d;
-        background-size: 30%;
-        padding: 10px;
-        text-align: center;
-        display: inline; /* Change display to inline */
-        font-family: 'Roboto', sans-serif; /* Use Roboto font */
-   
-    }
-    
-    nav a {
-        color :white;
-        text-decoration: wavy;
-        margin: 10px;
-        text-align: center;
-    }
-    section {
-        padding: 20px;
-    }
-    section#Pictures {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Display 2 pictures per row */
-        grid-template-rows: repeat(2, 1fr); /* Define 2 rows */
-        gap: 10px; /* Add gap between pictures */
-    
-    }
-    
-    .picture img {
-        max-width: 100%;
-       height: 300px; ;
-    }
-    .side-picture img{
-        max-width: 100%;
-        height: auto;
-        min-height: 400px;
-    }
-    .side-picture {
-        grid-row: 1 / 3; /* Span from row 1 to row 3 (middle) */
-        grid-column: 1 / 3; /* Span from column 1 to column 3 */
-    }
-    section#About {
-            background-color: #ffffff;
-            color: #8ba7cc;
-            width: auto;
-            height:auto;
-        }
-        section#About img {
-            display: block;
-           max-width: 200px;
-           max-height: 200px;
-            height: auto;
-            width: auto;
-        }
-        section#Contact {
-            margin-bottom: 100px;
-        }
-        section#work
-        {
-            background-color:#6ca1d6;
-            color: #ffffff;
-        }
-    footer {
-        background-color: #14075c;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        position: relative;
-        bottom: 0;
-        width: 100%;
-    }
-   dl > dt {
-    font-weight: bold ;
-    background-color: #14075c;
-    padding: 5sem;
-   }
-   dd {
-    border-left : solid black thin;
-   }
-   table{
-    border-style: dashed;
-    border-color: #14075c;
-   }
-   p {
-    font-weight: 600;
-   }
+ /* Styles for h1 elements */
+h1 {
+    text-align: center; /* Center-align the text */
+    font-weight: bold; /* Set the font weight to bold */
+}
+
+/* Styles for h2 elements */
+h2 {
+    text-align: center; /* Center-align the text */
+    text-decoration: underline; /* Add underline decoration */
+    font-weight: bolder; /* Set a bolder font weight */
+}
+
+/* Global styles for the body */
+body {
+    font-family: 'roboto', sans-serif; /* Use Roboto font or sans-serif as fallback */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    background-color: #336699; /* Set background color */
+    color: #FFFAFA; /* Set text color */
+    font-weight: 400; /* Set font weight */
+}
+
+/* Styles for the header section */
+header {
+    text-align: center; /* Center-align the text */
+    padding: 10%; /* Add padding */
+    font: size 10px;; /* Invalid syntax, remove this line */
+}
+
+/* Styles for the navigation */
+nav {
+    background-color: #19334d; /* Set background color */
+    background-size: 30%; /* Set background size */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center-align the text */
+    display: inline; /* Change display to inline */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+
+/* Styles for navigation links */
+nav a {
+    color: white; /* Set text color */
+    text-decoration: wavy; /* Add wavy underline decoration */
+    margin: 10px; /* Add margin */
+    text-align: center; /* Center-align the text */
+}
+
+/* Styles for section elements */
+section {
+    padding: 20px; /* Add padding */
+}
+
+/* Styles for the Pictures section */
+section#Pictures {
+    display: grid; /* Use grid display */
+    grid-template-columns: repeat(2, 1fr); /* Display 2 pictures per row */
+    grid-template-rows: repeat(2, 1fr); /* Define 2 rows */
+    gap: 10px; /* Add gap between pictures */
+}
+
+/* Styles for pictures within .picture class */
+.picture img {
+    max-width: 100%; /* Set maximum width */
+    height: 300px; /* Set height */
+}
+
+/* Styles for pictures within .side-picture class */
+.side-picture img {
+    max-width: 100%; /* Set maximum width */
+    height: auto; /* Set height to auto */
+    min-height: 400px; /* Set minimum height */
+}
+
+/* Styles for .side-picture class */
+.side-picture {
+    grid-row: 1 / 3; /* Span from row 1 to row 3 (middle) */
+    grid-column: 1 / 3; /* Span from column 1 to column 3 */
+}
+
+/* Styles for the About section */
+section#About {
+    background-color: #ffffff; /* Set background color */
+    color: #8ba7cc; /* Set text color */
+    width: auto; /* Set width to auto */
+    height: auto; /* Set height to auto */
+}
+
+/* Styles for images within section#About */
+section#About img {
+    display: block; /* Display as block */
+    max-width: 200px; /* Set maximum width */
+    max-height: 200px; /* Set maximum height */
+    height: auto; /* Set height to auto */
+    width: auto; /* Set width to auto */
+}
+
+/* Styles for the Contact section */
+section#Contact {
+    margin-bottom: 100px; /* Add margin at the bottom */
+}
+
+/* Styles for the work section */
+section#work {
+    background-color: #6ca1d6; /* Set background color */
+    color: #ffffff; /* Set text color */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #14075c; /* Set background color */
+    color: white; /* Set text color */
+    text-align: center; /* Center-align the text */
+    padding: 10px; /* Add padding */
+    position: relative; /* Set position to relative */
+    bottom: 0; /* Position at the bottom */
+    width: 100%; /* Set width to 100% */
+}
+
+/* Styles for dt elements within dl */
+dl > dt {
+    font-weight: bold; /* Set font weight to bold */
+    background-color: #14075c; /* Set background color */
+    padding: 5sem; /* Invalid syntax, should be '5em' */
+}
+
+/* Styles for dd elements */
+dd {
+    border-left: solid black thin; /* Add a left border */
+}
+
+/* Styles for table elements */
+table {
+    border-style: dashed; /* Set border style to dashed */
+    border-color: #14075c; /* Set border color */
+}
+
+/* Styles for p elements */
+p {
+    font-weight: 600; /* Set font weight to 600 */
+}
