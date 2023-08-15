@@ -1,19 +1,18 @@
- /* Styles for h1 elements */
+/* Styles for h1 elements */
 h1 {
-    text-align: center; /* Center-align the text */
+    text-align: center;/* Center-align the text */
     font-weight: bold; /* Set the font weight to bold */
 }
-
 /* Styles for h2 elements */
-h2 {
-    text-align: center; /* Center-align the text */
-    text-decoration: underline; /* Add underline decoration */
-    font-weight: bolder; /* Set a bolder font weight */
+h2{
+text-align: center;/* Center-align the text */
+text-decoration: underline;/* Add underline decoration */
+font-weight: bolder;/* Set a bolder font weight */
 }
 
 /* Global styles for the body */
 body {
-    font-family: 'roboto', sans-serif; /* Use Roboto font or sans-serif as fallback */
+    font-family:'roboto',sans-serif;/* Use Roboto font or sans-serif as fallback */
     margin: 0; /* Remove margin */
     padding: 0; /* Remove padding */
     background-color: #336699; /* Set background color */
@@ -138,4 +137,4 @@ table {
 /* Styles for p elements */
 p {
     font-weight: 600; /* Set font weight to 600 */
-}
+} 
